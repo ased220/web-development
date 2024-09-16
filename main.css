@@ -1,0 +1,298 @@
+body {
+  font-family: 'Sen', sans-serif;
+  font-size: 32px;
+}
+
+a:link {
+  text-decoration: none; /* Убираем подчеркивание */
+}
+a:visited {
+  color: rgb(0, 0, 0);
+}
+a:hover {
+  color: rgb(104, 102, 167);
+}
+
+/* Ссылка в момент нажатия */
+a:active {
+  color: rgb(1, 131, 146);
+}
+.head{
+  margin-top: 40px;
+  margin-left: 160px;
+  font-weight: bold;
+}
+hr {
+  background-color: #2325361F;
+  border: none;
+  height: 1px;
+}
+.typo {
+  height: 48px;
+  width: 194px;
+  margin-left: 160px;
+}
+.typo p{
+  font-weight: bold;
+}
+.down{
+  margin-left: S0px;
+  background-color: #FFF5D8;
+  height: 211px;
+  width: 1282px;
+  display: flex;
+}
+.down a{
+  display: flex;
+}
+
+.down p{
+  width: 505px;
+  margin-top: 81px;
+  margin-left: 10px;  
+  white-space: nowrap;
+}
+.vert_line{ 
+  width: 1px; /* Ширина линии */
+  height: 210px; /* Высота линии */
+  background-color: #000; /* Цвет линии */
+  margin-left: 60px;
+}
+.imm{
+  margin-top: 77px;
+  margin-left: 21px;
+}
+.immm{
+  margin-top: 77px;
+  margin-left: 218px;
+}
+.blockthree{
+  margin-top: 300px;
+  margin-left: 160px;
+  /* display: table-column-group; */
+  padding: 0%;
+}
+.twocolumn{
+  display: flex;
+}
+.blockthree .headings_1 h1{
+  font-size: 56px;      /* Размер шрифта */
+}
+.blockthree .headings_11 h1{
+  font-size: 48px;      /* Размер шрифта */
+}
+.blockthree .headings_2 h2{
+  font-size: 36px;      /* Размер шрифта */
+}
+.blockthree .headings_3 h3{
+  font-size: 28px;      /* Размер шрифта */
+}
+.blockthree .headings_4 h4{
+  font-size: 24px;      /* Размер шрифта */
+}
+.blockthree .headings_5 h5{
+  font-size: 20px;      /* Размер шрифта */
+}
+.blockthree .headings_6 h6{
+  font-size: 16px;      /* Размер шрифта */
+  
+}
+.blockthree h1, h2, h3, h4, h5, h6{
+  margin: 0%;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.blockthree p{
+/* Body 1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #AFB0B9;
+margin: 0%
+}
+
+.blockfour{
+  display: table-column;
+  margin-top:360px ;
+  margin-left: 150px;
+  max-width: 600px;
+}
+.gray {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #AFB0B9;
+margin-top: 30px;
+margin-left: 30px;
+}
+.blockfour h3{
+/* Heading H3 */
+font-family: 'Sen';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 40px;
+/* identical to box height, or 143% */
+letter-spacing: -1px;
+color: #232536;
+}
+.text{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #232536;
+margin: 0%;
+}
+.group{
+  display: flex;
+}
+
+/* ------------------------------------------ */
+.pallete{
+  margin-top: 80px;;
+  margin-left: 192px;
+}
+.color{
+display:flex;
+margin-top: 43px;
+
+}
+
+.color1{
+  /* Black  */
+  height: 80px;
+  width: 160px;
+  min-width: 160px;
+  background: #232536;
+}
+.color2{
+  /* Yellow  */
+background: #FFD050;
+height: 80px;
+  width: 160px;
+  min-width: 160px;
+}
+.color3{
+  /* /* Purple  */
+background: #592EA9;
+height: 80px;
+  width: 160px;
+  min-width: 160px;
+}
+.color4{
+  height: 80px;
+  width: 160px;
+  min-width: 160px;
+/* /* Dark Grey  */
+background: #4C4C4C; 
+}
+.color5{
+  height: 80px;
+  width: 160px;
+  min-width: 160px;
+/* Medium grey */
+background: #6D6E76;
+}
+.color6{
+  height: 80px;
+  width: 160px;
+  min-width: 160px;
+/* Light grey */
+background: #F4F4F4;
+}
+.color7{
+  height: 80px;
+  width: 160px;
+  min-width: 160px;
+ /* Lavender */
+background: #F4F0F8;
+}
+.color8{
+  height: 80px;
+  width: 160px;
+  min-width: 160px;
+/* Light yellow */
+background: #FBF6EA;
+}
+
+/* Medium grey 
+background: #6D6E76;
+
+/* Purple 
+background: #592EA9;
+
+/* Light yellow 
+background: #FBF6EA;
+
+/* Light grey 
+background: #F4F4F4;
+
+/* Lavender 
+background: #F4F0F8;
+
+/* Black 
+background: #232536;
+
+/* Yellow 
+background: #FFD050;
+
+/* Dark Grey 
+background: #4C4C4C; */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
